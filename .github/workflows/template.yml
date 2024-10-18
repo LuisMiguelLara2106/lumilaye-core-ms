@@ -1,0 +1,11 @@
+name: python app template
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  python-pipeline:
+    secrets: inherit
+    uses: devops-actions-ms-templates/.github/workflows/template.yml@master
