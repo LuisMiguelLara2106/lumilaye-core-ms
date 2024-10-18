@@ -8,4 +8,4 @@ on:
 jobs:
   python-pipeline:
     secrets: inherit
-    uses: devops-actions-ms-templates/.github/workflows/template.yml@master
+    uses: LuisMiguelLara2106/devops-actions-ms-templates/.github/workflows/template.yml@master
