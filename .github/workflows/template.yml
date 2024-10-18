@@ -9,3 +9,5 @@ jobs:
   python-pipeline:
     secrets: inherit
     uses: LuisMiguelLara2106/devops-actions-ms-templates/.github/workflows/template.yml@main
+    with:
+      language_version: "3.9" # specific version of npm | pip | gradle
